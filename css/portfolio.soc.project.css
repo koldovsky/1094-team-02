@@ -1,0 +1,8 @@
+@import url(variables.css);
+
+.hero__title
+{
+  font-size: 60px;
+  font-family: var(--body-fonts);
+  color: var(--primary-color);
+}
