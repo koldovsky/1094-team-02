@@ -3,6 +3,9 @@
 @import url(main.section.map.css);
 @import url(portfolio.photo.gallery.css);
 @import url(portfolio.soc.project.css);
+@import url(footer.css);
+@import url(portfolio.contact.me.css);
+@import url(portfolio.footer.css);
 
 body
 {
@@ -14,3 +17,4 @@ body
   --primary-color: rgb(255, 255, 255);
   --site-bg: #000;
 }
+
