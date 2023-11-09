@@ -1,4 +1,16 @@
-@import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+
 @import url(main.section.map.css);
 @import url(portfolio.photo.gallery.css);
 @import url(portfolio.soc.project.css);
+
+body
+{
+  background-color: var(--site-bg);
+}
+
+:root{
+  --body-fonts: 'Roboto', sans-serif;
+  --primary-color: rgb(255, 255, 255);
+  --site-bg: #000;
+}
