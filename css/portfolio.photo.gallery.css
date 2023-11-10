@@ -1,0 +1,22 @@
+.portfolio__photo
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portfolio__photo__left
+{
+  display: flex;
+}
+.portfolio__photo__right
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.potfolio_photo_right_top
+{
+  margin-bottom: 20px;
+}
