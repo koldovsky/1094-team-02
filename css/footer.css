@@ -6,6 +6,7 @@
 }
 
 .footer {
+footer {
     background-color: #000;
     height: 650px;
     color: var(--color-white);
