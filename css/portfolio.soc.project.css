@@ -20,10 +20,12 @@ body
 .hero__title
 {
   font-size: 60px;
+  text-align: center;
   font-family: var(--body-fonts);
   color: var(--primary-color);
   font-weight: 400;
   transition: 1s linear;
+  margin-bottom: 100px;
 }
 
 .hero__title:hover
@@ -31,7 +33,8 @@ body
   color: rgb(4, 94, 132);
 }
 
-.header__image img
+.header__image
 {
   height: 1170px;
+
 }
