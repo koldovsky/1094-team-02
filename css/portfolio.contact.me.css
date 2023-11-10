@@ -1,0 +1,141 @@
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-turquoise: #47b1bb;
+    --color-light-grey: rgb(169, 169, 169);
+}
+h1,
+h2,
+h3,
+p{
+    margin: 0;
+    padding: 0; 
+}
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.portfolio__container {
+    display: block;
+    align-items: center;
+    width: 1150px;
+    height: 330px;
+    background-color: rgb(20, 20, 20);
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 47px;
+    margin-bottom: 180px;
+}
+
+.info__title {
+    font-size: 0.9rem;
+    margin: 35px 0 25px 0;
+}
+
+.info__text {
+    max-width: 1000px;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.info__link {
+    margin-top: 50px;
+}
+
+.info__link a {
+    font-size: 2.8rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.info__link a:hover {
+    color: var(--color-turquoise);
+}
+
+
+/*----part2------*/
+
+.porfolio__footer {
+    height: 580px;
+    margin: 0 auto;
+    max-width: 1200px;
+    color: var(--color-white);
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.item__image {
+    margin-bottom: 30px;
+}
+
+.item__view {
+    width: 1200px;
+}
+
+.item__item {
+    height: 50px;
+}
+
+.footer__column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.info__item {
+    margin-top: 115px;
+    max-width: 100%;
+    flex: 0 0 20%;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 700;
+    text-align: start;
+}
+
+.info__item a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.info__name {
+    font-size: 1.8rem;
+}
+
+.info__find a {
+    text-decoration: none;
+    color: var(--color-light-grey);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.footer__line {
+    margin-top: 38px;
+}
+
+.footer__line:after {
+    content: '';
+    background-color: #383838;
+    height: 1px;
+    display: block;
+}
+
+.footer__label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: var(--color-light-grey);
+    margin-top: 30px;
+}
+
+.label__info {
+    margin-bottom: 30px;
+}
