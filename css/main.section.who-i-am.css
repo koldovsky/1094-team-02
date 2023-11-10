@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@100;200;300;400;700&family=Lato:wght@300&family=Roboto:wght@300;700;900&display=swap');
+
+.person {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+.person__info-title {
+    font-size: 15px;
+    line-height: 25.5px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+.person__experience {
+    font-size: 42px;
+    line-height: 54.6px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+.person__category-label,
+.person__awards-label {
+    font-size: 21px;
+    line-height: 31.5px;
+    font-weight: 900;
+    letter-spacing: 6.3px;
+}
+
+.person__category-description,
+.person__quote-author {
+    color: rgb(169, 169, 169);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 25.5px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+
+.person__social-links {
+    width: 30px;
+    }
+
+.person__award-link {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 25.5px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+
+.person__quote {
+    font-size: 42px;
+    line-height: 54.6px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+.person__project-link {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    line-height: 30.4px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
