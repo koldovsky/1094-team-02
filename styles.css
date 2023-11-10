@@ -1,18 +1,9 @@
-<style>
-<!--Maksym Parashchuk
-        body {
-            background-color: black;
-            color: white;
-        }
-
-
-
-        .main-logo-company__subtitle {
+         .main-logo-company__subtitle {
             font-family: Roboto, sans-serif;
             font-size: 15px;
             max-width: 1200px;
             margin-left: 355px;
-            min-width: -272;
+            min-width: 272;
 
         }
         .main-logo-company__title {
@@ -20,7 +11,7 @@
             font-size: 42px;
             max-width: 1200px;
             margin-left: 355px;
-            min-width: -272;
+            min-width: 272;
         }
 
         .image-container {
@@ -34,4 +25,3 @@
             height: 224px;
             margin: 15px; /* Додаємо зовнішній відступ між зображеннями */
         }
-    </style>

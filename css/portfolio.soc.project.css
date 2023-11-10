@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+
+:root{
+  --body-fonts: 'Roboto', sans-serif;
+  --primary-color: rgb(255, 255, 255);
+  --site-bg: #000;
+}
+
+body
+{
+  background-color: var(--site-bg);
+}
+
+.header__hero
+{
+  text-align: center;
+  background-image: url("../img/baground.jpg.webp");
+}
+
+.hero__title
+{
+  font-size: 60px;
+  font-family: var(--body-fonts);
+  color: var(--primary-color);
+  font-weight: 400;
+  transition: 1s linear;
+}
+
+.hero__title:hover
+{
+  color: rgb(4, 94, 132);
+}
+
+.header__image img
+{
+  height: 1170px;
+}
