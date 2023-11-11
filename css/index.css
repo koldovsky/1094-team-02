@@ -1,3 +1,4 @@
+@import url(global.css);
 @import url(main.section.map.css);
 @import url(portfolio.photo.gallery.css);
 @import url(portfolio.soc.project.css);
@@ -6,3 +7,4 @@
 @import url(portfolio.footer.css);
 @import url(main.section.who-i-am.css);
 @import url(portfolio-soc-project-text-about-wwf.css);
+

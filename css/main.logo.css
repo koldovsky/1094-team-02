@@ -1,4 +1,120 @@
-         /*
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+        .main-logo-company__subtitle {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            box-sizing: border-box;
+            font-size: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: left;
+            justify-content: left;
+            padding-left: 360px;
+        }
+        
+        .main-logo-company__title {
+            display: flex;
+            font-size: 42px;
+            align-items: center;
+            justify-content: center;
+            max-width: 1200px;
+            min-width: 300px;
+            padding-left: 360px;
+
+        }
+
+        
+        .image-container {
+            max-width: 1200px;
+            box-sizing: border-box;
+            justify-content: left;
+            padding-left: 300px;
+        }
+        
+        .image-button {
+            width: 272px; 
+            height: 224px;
+            margin: 15px;
+        }
+        
+        @media (min-width: 320px) {
+            .main-logo-company__subtitle
+            .main-logo-company__title {
+                display: flex;
+                align-items: start;
+            }
+        }
+        
+        @media (min-width: 320px) {
+            .image-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .image-container {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        }
+        /*
+        .main-logo-company__subtitle {
+            margin-top: 5px;
+            box-sizing: border-box;
+            font-size: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            justify-content: start;
+            padding-left: 300px;
+        }
+
+        .main-logo-company__title {
+            box-sizing: border-box;
+            font-size: 42px;
+            max-width: 1300px;
+            align-items: start;
+            justify-content: start;
+            padding-left: 300px;
+        }
+
+        .image-container {
+            max-width: 1200px;
+            box-sizing: border-box;
+            justify-content: center;
+            position: static;
+        }
+
+        .image-button {
+            width: 272px;
+            height: 224px;
+            position: static;
+        }
+
+
+        @media (min-width: 500px) {
+
+            .main-logo-company__subtitle,
+            .main-logo-company__title {
+                display: flex;
+                align-items: start;
+            }
+        }
+
+        @media (min-width: 320px) {
+            .image-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .image-container {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        }
+        */
+        /*
          .main-logo-company__new {
             flex-direction: column;
             display: flex;   
@@ -26,6 +142,7 @@
             margin: 15px;
         }
         */
+        /*
          .main-logo-company__subtitle {
              font-family: Roboto, sans-serif;
              font-size: 15px;
@@ -54,3 +171,4 @@
              height: 224px;
              margin: 15px;
          }
+         */

@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@100;200;300;400;700&family=Lato:wght@300&family=Roboto:wght@300;700;900&display=swap');
-
 .person {
     color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
@@ -39,7 +37,7 @@
 
 .person__social-links {
     width: 30px;
-    }
+}
 
 .person__award-link {
     color: rgb(255, 255, 255);

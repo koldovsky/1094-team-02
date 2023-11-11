@@ -1,16 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap');
-
-:root{
-  --body-fonts: 'Roboto', sans-serif;
-  --primary-color: rgb(255, 255, 255);
-  --site-bg: #000;
-}
-
-body
-{
-  background-color: var(--site-bg);
-}
-
 .header__hero
 {
   text-align: center;
@@ -20,10 +7,12 @@ body
 .hero__title
 {
   font-size: 60px;
+  text-align: center;
   font-family: var(--body-fonts);
-  color: var(--primary-color);
+  color: var(--color-white);
   font-weight: 400;
   transition: 1s linear;
+  margin-bottom: 100px;
 }
 
 .hero__title:hover
@@ -31,7 +20,7 @@ body
   color: rgb(4, 94, 132);
 }
 
-.header__image img
+.header__image
 {
   height: 1170px;
 }
