@@ -26,31 +26,31 @@
             margin: 15px;
         }
         */
-        .main-logo-company__subtitle {
-            font-family: Roboto, sans-serif;
-            font-size: 15px;
-            margin-left: 320px;
-            margin-top: 25px;
-            margin-bottom: 15px;
-        }
-        .main-logo-company__title {
-            font-family: Roboto, sans-serif;
-            font-size: 42px;
-            margin-left: 320px;
-            max-width: 1222px;
-            margin-bottom: 30px;
-        }
+         .main-logo-company__subtitle {
+             font-family: Roboto, sans-serif;
+             font-size: 15px;
+             margin-left: 320px;
+             margin-top: 25px;
+             margin-bottom: 15px;
+         }
 
-        .image-container {
-            display: flex;
-            flex-wrap: wrap;
-            max-width: 1500px;
-            margin-left: 300px;
-        }
+         .main-logo-company__title {
+             font-family: Roboto, sans-serif;
+             font-size: 42px;
+             margin-left: 320px;
+             max-width: 1222px;
+             margin-bottom: 30px;
+         }
 
-        .image-button {
-            width: 272px;
-            height: 224px;
-            margin: 15px;
-        }
+         .image-container {
+             display: flex;
+             flex-wrap: wrap;
+             max-width: 1500px;
+             margin-left: 300px;
+         }
 
+         .image-button {
+             width: 272px;
+             height: 224px;
+             margin: 15px;
+         }
