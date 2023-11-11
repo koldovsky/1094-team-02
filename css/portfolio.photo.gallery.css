@@ -2,21 +2,25 @@
 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: stretch;
+  gap: 15px;
 }
 
-.portfolio__photo__left
+.portfolio__photo img
 {
-  display: flex;
+  width: 100%;
 }
-.portfolio__photo__right
+
+.big-image
 {
+  width: 70%;
+}
+
+.small-images
+{
+  width: 31%;
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-}
-
-.potfolio_photo_right_top
-{
-  margin-bottom: 20px;
+  flex-shrink: 0;
+  gap: 15px;
 }
