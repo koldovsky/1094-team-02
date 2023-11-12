@@ -20,7 +20,7 @@
   color: rgb(4, 94, 132);
 }
 
-.header__image
+.header__image img
 {
-  height: 1170px;
+  width: 100%;
 }
