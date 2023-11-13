@@ -20,6 +20,8 @@ body {
 
 .wwf__contact-container {
     margin: 50px;
+    align-items: start;
+    align-content: start;
 }
 
 .wwf__author,
@@ -29,7 +31,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 19px;
-    align-self: end;
+    align-self: center;
 }
 
 .wwf__author-text,
@@ -39,7 +41,7 @@ body {
     margin: 0;
     color: rgb(169, 169, 169);
     font-size: 15px;
-    align-self: end;
+    align-self: center;
 }
 
 .wwf__share {
@@ -53,17 +55,19 @@ body {
     gap: 10px;
     width: max-content;
     flex-direction: row;
+    align-items: center;
 }
 
 .wwf__share-link {
     text-decoration: none;
+    align-items: center;
 }
 
 .wwf__share-icon {
     width: 32px;
     height: 32px;
     fill: white;
-    align-self: end
+    align-self: center;
 }
 
 
@@ -73,12 +77,21 @@ body {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+        align-self: center;
     }
 
     .wwf__contact-container {
         display: grid;
         grid-template-columns: auto auto;
         grid-gap: 10px;
+        align-items: center;
+        align-content: start;
+    }
+    .wwf__author-text,
+    .wwf__client-text,
+    .wwf__category-text,
+    .wwf__date-text {
+        align-self: center; 
     }
 }
 
