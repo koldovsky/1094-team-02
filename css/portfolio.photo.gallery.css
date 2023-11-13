@@ -1,22 +1,32 @@
-.portfolio__photo
+.portfolio-gallery
 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
 }
 
-.portfolio__photo__left
+.portfolio-gallery__image-container
 {
-  display: flex;
-}
-.portfolio__photo__right
-{
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
-.potfolio_photo_right_top
+.portfolio-gallery__image
 {
-  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media screen and (min-width: 768px){
+  .portfolio-gallery{
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr;
+  }
+  .portfolio-gallery__image-container:nth-of-type(1)
+  {
+    grid-row: 1 / -1;
+  }
 }
