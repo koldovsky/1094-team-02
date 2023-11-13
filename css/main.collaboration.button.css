@@ -1,0 +1,43 @@
+.collaboration-block {
+    text-align: center;
+    margin: 50px auto; /* центрування по вертикалі */
+    background-color: #353434; /* колір фону блоку */
+    border-radius: 0; /* закруглення кутів */
+    padding: 20px; /* відступ всередині блоку */
+    width: 90%; /* ширина блоку на 90% ширини сторінки */
+    max-width: 1400px; /* максимальна ширина блоку */
+    height: 600px; /* висота блоку у пікселях */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner-content {
+    color: #fff; /* колір тексту */
+    font-size: 48px; /* збільшений розмір шрифту (тричі більше) */
+    padding: 40px; /* відступ для тексту */
+    
+}
+
+h3 {
+    font-size: 25px; /* розмір шрифту маленькими літерами */
+}
+
+p {
+    font-size: 1.3em; /* більший розмір шрифту */
+    margin-bottom: 20px; /* відступ від кнопки */
+}
+
+button {
+    width: 500px; /* ширина кнопки */
+    height: 100px; /* висота кнопки */
+    font-size: 1em;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0; /* видалення закруглення кутів */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 10px; /* відступи для кнопки */
+    margin: 50px auto;
+}
