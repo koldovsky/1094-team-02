@@ -1,11 +1,9 @@
-.header__hero
-{
+.header__hero {
   text-align: center;
   background-image: url("../img/baground.jpg");
 }
 
-.hero__title
-{
+.hero__title {
   font-size: 60px;
   text-align: center;
   font-family: var(--body-fonts);
@@ -15,12 +13,10 @@
   margin-bottom: 100px;
 }
 
-.hero__title:hover
-{
+.hero__title:hover {
   color: rgb(4, 94, 132);
 }
 
-.header__image img
-{
+.header__image img {
   width: 100%;
 }
