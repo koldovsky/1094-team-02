@@ -27,11 +27,12 @@
     font-weight: 900;
 }
 .footer__link{
+    word-wrap: break-word;
     margin-top: 25px;  
 }
 .footer__link a{
     color: var(--color-text);
-    font-size: 34px; 
+    font-size: 43px; 
 }
 @media(min-width: 768px){
     .footer__link a{

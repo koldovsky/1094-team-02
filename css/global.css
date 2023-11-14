@@ -11,6 +11,8 @@
   --color-link: #47b1bb;
   --color-social: rgb(169, 169, 169);
   --color-border: #383838;
+  --color-background: rgb(20, 20, 20);
+  --color-title: #a9a9a9;
 }
 
 * {
@@ -22,6 +24,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
 
 .wrapper {
