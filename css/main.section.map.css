@@ -1,18 +1,15 @@
 .map
 {
   width: 100%;
-  aspect-ratio: 2.5 / 1;
+  aspect-ratio: 3 / 4;
 }
 
 .map iframe {
   border: 0;
 }
 
-@media screen and (max-width: 768px) { 
-  .map
-  {
-    width: 100%;
-    aspect-ratio: 3 / 4;
+@media screen and (min-width: 1024px){ 
+  .map{
+    aspect-ratio: 2.5 / 1;
   }
 }
-
