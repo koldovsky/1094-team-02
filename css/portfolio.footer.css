@@ -43,7 +43,7 @@
 }
 
 .info__item {
-    margin-top: 60px;
+    margin-top: 45px;
     color: var(--color-text);
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
@@ -72,7 +72,7 @@
 }
 
 .info__name {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
 }
 
 .info__item a {
