@@ -6,13 +6,11 @@
     margin: 0 auto;
     padding-top: 65px;
     padding-bottom: 65px;
-
-
+}
     /* .person__info {
         border: 1px solid blue;
 
     } */
-
     .person__info-title {
         font-size: 15px;
         line-height: 25.5px;
@@ -20,7 +18,6 @@
         letter-spacing: normal;
         padding-left: 20px;
     }
-
     .person__experience {
         font-size: 42px;
         line-height: 54.6px;
@@ -28,16 +25,14 @@
         letter-spacing: normal;
         padding-left: 20px;
         width: 40%;
-
     }
-
     .person__container {
         display: flex;
         justify-content: space-between;
         /* border: 2px solid red; */
         height: 400px;
         /* width: 100%; */
-
+    }
         .person__category {
             /* border: 2px solid white; */
             width: 33.333%;
@@ -46,13 +41,11 @@
             padding-top: 5px;
             padding-bottom: 5px;
         }
-    }
-
+    
     .person__category-label {
         margin-bottom: 15px;
         margin-top: 15px;
     }
-
     .person__category-label,
     .person__awards-label {
         font-size: 21px;
@@ -61,11 +54,9 @@
         letter-spacing: 6.3px;
         width: 300px;
     }
-
     .person__category-description {
         margin-top: 15px;
     }
-
     .person__category-description,
     .person__quote-author {
         color: rgb(169, 169, 169);
@@ -76,7 +67,6 @@
         letter-spacing: normal;
         margin-bottom: 15px;
     }
-
     .person__social-links {
         width: 50%;
         height: auto;
@@ -84,13 +74,11 @@
         /* border: 2px solid white; */
         display: flex;
         justify-content: space-between;
-
+    }
         .person__social-link--twitter {
             padding-top: 5px;
         }
-    }
-
-    .person__awards {
+        .person__awards {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -98,7 +86,6 @@
         height: 80%;
         margin-top: 15px;
     }
-
     .person__award-link {
         color: rgb(255, 255, 255);
         font-family: 'Roboto', sans-serif;
@@ -106,16 +93,13 @@
         line-height: 25.5px;
         font-weight: 400;
         letter-spacing: normal;
-
     }
-
     .person__quote {
         font-size: 42px;
         line-height: 54.6px;
         font-weight: 700;
         letter-spacing: normal;
     }
-
     .person__project-link {
         color: rgb(255, 255, 255);
         font-family: 'Roboto', sans-serif;
@@ -124,11 +108,9 @@
         font-weight: 700;
         letter-spacing: normal;
     }
-
     .person__projects {
         /* border: 2px solid blue; */
         margin-top: 65px;
         display: flex;
         justify-content: space-between;
     }
-}
