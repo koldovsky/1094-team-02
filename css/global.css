@@ -6,6 +6,7 @@
 :root {
   --body-fonts: 'Roboto', sans-serif;
   --site-bg: #000;
+  --color-title: #fff;
   --color-text: rgb(255, 255, 255);
   --color-link: #47b1bb;
   --color-social: rgb(169, 169, 169);
@@ -22,6 +23,6 @@ body {
 
 .wrapper {
   max-width: 1200px;
-  padding: 15px;
+  padding: 7px;
   margin: 0 auto;
 }
