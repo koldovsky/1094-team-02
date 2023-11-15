@@ -56,12 +56,13 @@
     line-height: 1.9;
     font-weight: 700;
 }
-
+.page__name {
+    font-size: 1.9rem;
+}
 @media (min-width: 768px) {
     .footer__column {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 0 20px;
-        /* margin: 20px;*/
     }
     .page__item {
         line-height: 1.5;
@@ -77,11 +78,6 @@
         text-align: start;
     }
 }
-
-.page__name {
-    font-size: 1.9rem;
-}
-
 @media (min-width: 768px) {
     .page__name {
         text-align: start;
@@ -99,6 +95,7 @@
     color: var(--color-social);
     font-weight: 700;
     font-size: 16px;
+    
 }
 
 @media (min-width: 768px) {
