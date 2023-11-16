@@ -19,14 +19,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
  }
 body {
   margin: 0;
   padding: 0;
   background-color: #000;
 }
-
+p{
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+  max-width: 100%;
+}
 .wrapper {
   max-width: 1200px;
   padding: 15px;
