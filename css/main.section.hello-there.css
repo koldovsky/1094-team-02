@@ -28,6 +28,15 @@
 
 .hello-there__tab-button{
     padding: 15px 20px;
+    content: "";
+    position: absolute;
+    height: 1px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: inherit;
+    background-color: currentColor;
+    opacity: .125;
 }
 
 
