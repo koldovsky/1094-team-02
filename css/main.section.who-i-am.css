@@ -120,7 +120,7 @@
     letter-spacing: normal;
     width: 100%;
     text-decoration: none;
-}
+    }
 
 .person__projects {
     /* border: 2px solid blue; */
@@ -154,6 +154,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 .person__project--walking {
@@ -164,6 +165,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 768px) {
@@ -223,5 +225,7 @@
     .person__project-link {
         width: 86%;
     }
-
+    .person__project-link {
+        align-self: center;
+    }
 }
