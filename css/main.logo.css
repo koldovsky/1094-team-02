@@ -1,70 +1,68 @@
+.main-logo-company__new {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}   
+
 .main-logo-company__subtitle {
     font-size: 15px;
-    text-align: left;
-    max-width: 1200px;
     margin: auto;
-    padding: 75px 0px 15px;
+    max-width: 1200px;
+    padding-left: 7.5px;
+    padding-bottom: 20px;
 }
 
-@media (min-width: 320px) {
-    .main-logo-company__subtitle {
-        font-size: 15px;
-        text-align: left;
-        min-width: 320px;
-        margin: auto;
-        padding-left: 30px;
+@media (min-width: 768px) {
+.main-logo-company__subtitle {
+     padding-left: 15px;
     }
 }
 
 .main-logo-company__title {
     font-size: 42px;
     font-weight: bold;
-    text-align: left;
-    max-width: 1200px;
+    line-height: 1.3;
     margin: auto;
-    padding-bottom: 50px;
+    max-width: 1200px;
+    padding-left: 7.5px;
+    margin-bottom: 30px;
 }
 
 @media (min-width: 320px) {
     .main-logo-company__title {
-        font-size: 42px;
-        font-weight: bold;
-        text-align: left;
-        width: 100%;
-        padding-left: 30px;
-        line-height: 1.3;
-        letter-spacing: 1;
+        font-size: 34px;
     }
 }
 
-.image-container {
-    max-width: 1230px;
-    margin: auto;
+@media (min-width: 768px) {
+    .main-logo-company__title {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-logo-company__title {
+        font-size: 38px;
+        padding-left: 15px;
+    }
 }
 
 .image-button {
     width: 100%;
-    height: auto;
-    margin: 15px;
+    padding: 7.5px;
+    box-sizing: border-box;
 }
 
-@media (min-width: 320px) {
-    .image-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 770px) {
-    .image-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+.image-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 @media (min-width: 990px) {
     .image-container {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+
     }
 }
