@@ -7,6 +7,7 @@
 .inspiration__inner-text {
     padding: 0 15px;
     margin: 50px 0 0;
+    color: var(--color-text);
 }
 .inspiration__inner-text__header {
     font-size: 15px;
