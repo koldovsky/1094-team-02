@@ -78,9 +78,21 @@
     width: 40%;
     height: auto;
     color: var(--color-text);
-    /* border: 2px solid white; */
     display: flex;
     justify-content: space-between;
+}
+
+.person__social-links svg {
+    width: 25px;
+    height: 25px;
+    transition: fill 0.3s ease;
+}
+
+.person__social-link--behance:hover svg path,
+.person__social-link--pinterest:hover svg path,
+.person__social-link--instagram:hover svg path,
+.person__social-link--twitter:hover svg path {
+    fill: rgb(100, 204, 218);
 }
 
 .person__social-link--twitter {
@@ -120,7 +132,7 @@
     letter-spacing: normal;
     width: 100%;
     text-decoration: none;
-    }
+}
 
 .person__projects {
     /* border: 2px solid blue; */
@@ -143,7 +155,6 @@
 
 .person__projects--title {
     width: 33.33333%;
-
 }
 
 .person__project--sands {
@@ -225,6 +236,7 @@
     .person__project-link {
         width: 86%;
     }
+
     .person__project-link {
         align-self: center;
     }
