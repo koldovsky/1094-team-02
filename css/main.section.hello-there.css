@@ -1,0 +1,35 @@
+.hello-there {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hello-there__title{
+    font-weight: bold;
+    font-size: 15px; 
+}
+
+.hello-there__subtitle{
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    min-width: 320px;
+    font-size: 42px;
+    font-weight: 700px;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
+.hello-there__tabs--gallery {
+    display: flex;
+}
+
+.hello-there__tab-button{
+    padding: 15px 20px;
+}
+
+
+ /* min-width: 100%;
+    box-sizing: border-box; */
