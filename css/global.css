@@ -13,6 +13,7 @@
   --color-border: #383838;
   --color-background: rgb(20, 20, 20);
   --color-text-content: #a9a9a9;
+  --color-border-bottom: rgba(255, 255, 255, 0.2)
 }
 
 * {
