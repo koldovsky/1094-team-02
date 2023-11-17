@@ -1,7 +1,13 @@
-.hello-there {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+/* .hello-there { */
+    /* max-width: 1200px; */
+    /* width: 100%; */
+    /* margin: 0 auto; */
+/* } */
+
+.hello-there__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .hello-there__title{
@@ -28,17 +34,32 @@
 
 .hello-there__tab-button{
     padding: 15px 20px;
-    content: "";
-    position: absolute;
-    height: 1px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    color: inherit;
-    background-color: currentColor;
-    opacity: .125;
+ }
+
+ .hello-there__tab-button:hover{
+    text-decoration: underline;
+}
+
+.hello-there__card-image{
+    display: block;
+    margin: auto;
+}
+
+.hello-there__card-title{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.hello-there__card-time{
+    display: block;
+    margin-bottom: 35px;
 }
 
 
- /* min-width: 100%;
-    box-sizing: border-box; */
+@media (min-widht: 768px){
+    .hello-there__card-img{
+        margin: 30px;
+        padding: 15px;
+        display: inline;
+        text-align: center;
+}
