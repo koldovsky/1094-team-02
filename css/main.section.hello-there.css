@@ -10,25 +10,24 @@
 }
 
 .hello-there__subtitle{
-    font-size: inherit;
     text-transform: uppercase;
     font-weight: bold;
     text-align: left;
     min-width: 320px;
     font-size: 42px;
-    font-weight: 700px;
     text-transform: none;
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
 }
-.hello-there__tabs--gallery {
+
+.hello-there__tabs--gallery{
     display: flex;
-    font-weight: bold;
 }
 
 .hello-there__tab-button{
     padding: 15px 20px;
+    font-weight: bold;
  }
 
  .hello-there__tab-button:hover{
@@ -54,11 +53,10 @@
     color:var(--color-text-content)
 }
 
-@media (min-widht: 768px){
-    .hello-there__card-img{
-        display: inline-block;
-        text-align: center;
+@media (min-width: 768px){
+    .hello-there__category{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
 }
