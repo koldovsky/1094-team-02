@@ -13,21 +13,21 @@
     color: var(--color-text);
     letter-spacing: 0.5px;
     justify-content: space-between;
-    padding: 0px 0;
+    padding: 30px 0;
     gap: 40px;
 }
 
 .header__nav-link {
     display: block;
-    width: 218px;
+    width: 50px;
 }
 
 .nav-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: 400;
-    font-size: 17px;
+    font-weight: 500;
+    font-size: 19px;
     letter-spacing: 0;
     gap: 20px;
 }
