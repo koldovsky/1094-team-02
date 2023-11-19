@@ -10,6 +10,10 @@
     transition: background 0.5s ease;
 }
 
+.btn-primary:hover {
+    background: var(--btn-primary-hover);
+}
+
 .btn-light{
     font-size: 14px;
     color: var(--text-dark);
@@ -28,8 +32,3 @@
     color: var(--btn-primary);
     border-color: var(--btn-primary);
 }
-
-.btn-primary:hover {
-    background: var(--btn-primary-hover);
-}
-
