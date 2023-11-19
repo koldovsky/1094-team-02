@@ -12,19 +12,19 @@
   --color-social: rgb(169, 169, 169);
   --color-border: #383838;
   --color-background: rgb(20, 20, 20);
-  --color-title: #a9a9a9;
+  --color-text-content: #a9a9a9;
+  --color-border-bottom: rgba(255, 255, 255, 0.2)
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
  }
 body {
-  margin: 0;
-  padding: 0;
   background-color: #000;
+  color: var(--color-title);
+  font-family: var(--body-fonts);
 }
 p{
   margin: 0;
@@ -36,6 +36,6 @@ img{
 }
 .wrapper {
   max-width: 1200px;
-  padding: 15px;
+  padding: 0px 15px;
   margin: auto;
 }

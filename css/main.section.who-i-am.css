@@ -8,16 +8,16 @@
     padding-bottom: 65px;
 }
 
-/* .person__info {
-        border: 1px solid blue;
+.person__info {
+    padding-left: 20px;
+}
 
-    } */
 .person__info-title {
     font-size: 15px;
     line-height: 25.5px;
     font-weight: 700;
     letter-spacing: normal;
-    padding-left: 20px;
+    width: 33.3333%;
 }
 
 .person__experience {
@@ -25,20 +25,18 @@
     line-height: 54.6px;
     font-weight: 700;
     letter-spacing: normal;
-    padding-left: 20px;
-    width: 40%;
+    width: 33.3333%;
 }
 
 .person__container {
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid red; */
     height: auto;
-    /* width: 100%; */
+    width: 100%;
+    margin: auto;
 }
 
 .person__category {
-    /* border: 2px solid white; */
     width: 33.33333%;
     padding-left: 30px;
     padding-right: 30px;
@@ -59,7 +57,6 @@
     font-weight: 900;
     letter-spacing: 6.3px;
     width: 33.33333%;
-
 }
 
 .person__category-description {
@@ -78,12 +75,24 @@
 }
 
 .person__social-links {
-    width: 50%;
+    width: 40%;
     height: auto;
     color: var(--color-text);
-    /* border: 2px solid white; */
     display: flex;
     justify-content: space-between;
+}
+
+.person__social-links svg {
+    width: 25px;
+    height: 25px;
+    transition: fill 0.3s ease;
+}
+
+.person__social-link--behance:hover svg path,
+.person__social-link--pinterest:hover svg path,
+.person__social-link--instagram:hover svg path,
+.person__social-link--twitter:hover svg path {
+    fill: rgb(100, 204, 218);
 }
 
 .person__social-link--twitter {
@@ -94,7 +103,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* border: 2px solid white; */
     height: 80%;
     margin-top: 15px;
 }
@@ -122,7 +130,8 @@
     line-height: 30.4px;
     font-weight: 700;
     letter-spacing: normal;
-    margin-top: 30px;
+    width: 100%;
+    text-decoration: none;
 }
 
 .person__projects {
@@ -131,12 +140,14 @@
     margin-top: 65px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     padding-left: 20px;
 }
 
 .person__project {
     width: 33.33333%;
-    padding: 40px 30px;
+    aspect-ratio: 3/4;
+    padding: 30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -154,6 +165,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 .person__project--walking {
@@ -164,6 +176,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 768px) {
@@ -186,6 +199,7 @@
         width: 100%;
         height: auto;
         margin: auto;
+        align-items: center;
     }
 
     .person__experience {
@@ -194,7 +208,7 @@
         font-weight: 700;
         letter-spacing: normal;
         padding-left: 20px;
-        width: 40%;
+        width: 33.3333%;
     }
 
     .person__quote {
@@ -202,5 +216,28 @@
         line-height: 54.6px;
         font-weight: 700;
         letter-spacing: normal;
+    }
+
+    .person__project {
+        width: 100%;
+        padding: 40px 30px;
+
+    }
+
+    .person__category {
+        width: 100%;
+        margin: auto;
+    }
+
+    .person__project--sands,
+    .person__project--walking,
+    .person__experience,
+    .person__projects--title,
+    .person__project-link {
+        width: 86%;
+    }
+
+    .person__project-link {
+        align-self: center;
     }
 }

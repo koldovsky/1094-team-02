@@ -110,13 +110,13 @@
 }
 
 .footer__line {
-    margin: 20px 0 0 0;
+    margin: 20px auto 0 auto;
     width: 90%;
 }
 
 .footer__line:after {
     content: '';
-    background-color: #383838;
+    background-color: var(--color-border);
     height: 1px;
     display: block;
 }
