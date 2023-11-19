@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +12,17 @@
     <link rel="stylesheet" href="css/main.collaboration.button.css">
     <link rel="stylesheet" href="css/ourteam.css">
 </head>
+
 <body>
-    <header class="header wrapper">
-        <nav class="header__nav" data-include="header-nav.partial.html"></nav>
-        <div class="header__carousel" data-include="header-carusel.partial.html"></div>
+    <header class="header">
+        <div class="header__background">
+            <div class="header__container container">
+                <nav data-include="header-nav.partial.html"></nav>
+                <section data-include="index.header-intro.partial.html"></section>
+            </div>
+        </div>
     </header>
+
     <section data-include="main.section.who-i-am.partial.html"></section>
     <section data-include="main.section.hello-there.partial.html"></section>
     <section data-include="main.section.collaboration.partial.html"></section>
@@ -25,5 +32,7 @@
     <section data-include="main.section.logo.company.partial.html"></section>
     <footer data-include="footer.partial.html"></footer>
 <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+<script type="module" src="./js/index.js"></script>
 </body>
+
 </html>
