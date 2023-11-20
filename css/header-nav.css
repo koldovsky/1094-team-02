@@ -1,3 +1,9 @@
+.header {
+    position: relative;
+    z-index: 1;
+}
+
+
 .header a {
     color: var(--color-text);
 }
@@ -10,19 +16,17 @@
 .header__nav {
     display: flex;
     align-items: center;
-    color: var(--color-text);
-    letter-spacing: 0.5px;
     justify-content: space-between;
-    padding: 30px 0;
-    gap: 40px;
+    padding: 24px;
+    gap: 6px;
 }
 
-.header__nav-link {
-    display: block;
+.header__nav-logo {
     width: 50px;
 }
 
 .nav-list {
+    list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,6 +37,7 @@
 }
 
 .nav-list__link a {
+    padding: 5px;
     position: relative;
     display: inline-block;
 }
@@ -77,6 +82,7 @@
 .header__menu-btn:hover {
     opacity: 0.6;
 }
+
 
 .header__navicon {
     display: block;
@@ -123,7 +129,7 @@
 
 .header.active .header__background,
 .header.active .header__nav-menu {
-    background: var(--text-dark);
+    background: var(--header-background);
 }
 
 .header.active .header__navicon {
@@ -143,14 +149,12 @@
     top: 0;
 }
 
-@media (min-width: 1110px) {
-    .header__background {
-        background-position: 51% 50%;
-    }
 
-    .header__nav {
-        padding: 45px 0;
-        gap: 8px;
+
+@media (min-width:991px) {
+    
+    .header__nav-logo {
+        width: 50px;
     }
 
     .header__menu-btn {
@@ -159,43 +163,18 @@
 
     .header__nav-menu {
         display: flex;
-        justify-content: flex-end;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-left: auto;
-        order: 2;
-        gap: 8px;
+        width: 100%;
+        justify-content: center;
     }
 
-    .nav-list {
+    .header__nav-list {
         flex-direction: row;
-        font-size: 15px;
-        gap: 30px;
+        margin: auto;
     }
 
-    .header__nav-btn {
-        margin-left: 20px;
-    }
-}
+    .header__logo {
+        max-width: 125px;
 
-@media (min-width: 1200px) {
-    .header__nav {
-        gap: 15px;
     }
 
-    .header__nav-menu {
-        order: 0;
-    }
-
-    .btn-sub-nav {
-        display: none;
-    }
-
-    .socials-nav {
-        display: block;
-    }
-
-    .header__nav-btn {
-        margin-left: 0;
-    }
 }
