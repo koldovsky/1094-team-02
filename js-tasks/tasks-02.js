@@ -8,7 +8,15 @@ function lovefunc(flower1, flower2) {
   return false;
 }
 
-// Task Opposites Attract
+// Task Keep Hydrated!
 function litres(time) {
   return Math.floor(time * 0.5);
+}
+
+// Task Grasshopper - Personalized Message
+function greet(name, owner) {
+  if (owner === name) {
+    return "Hello boss";
+  }
+  return "Hello guest";
 }
