@@ -20,3 +20,8 @@ function greet(name, owner) {
   }
   return "Hello guest";
 }
+
+// Task Grasshopper - Terminal game move function
+function move(position, roll) {
+  return (position = position + 2 * roll);
+}
