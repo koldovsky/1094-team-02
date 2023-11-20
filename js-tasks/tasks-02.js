@@ -7,3 +7,8 @@ function lovefunc(flower1, flower2) {
   }
   return false;
 }
+
+// Task Opposites Attract
+function litres(time) {
+  return Math.floor(time * 0.5);
+}
