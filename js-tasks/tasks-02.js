@@ -1,44 +1,51 @@
-// Task Opposites Attract 
-function lovefunc(flower1, flower2) {
-  if (flower1 % 2 === 0 && flower2 % 2 != 0) {
-    return true;
-  } else if (flower2 % 2 === 0 && flower1 % 2 != 0) {
-    return true;
+//https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
+
+function stringToArray(string){
+  let result = string.split(" ");
+  return result;
+}
+
+//https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
+function DNAtoRNA(dna){
+  let result = dna.replace(/T/g, "U");
+  return result;
+}
+
+//https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
+var min = function(list){
+  let result = list[0]; 
+  for(let i=0; i<list.length; i++){
+    if(list[i] < result){
+      result = list[i];
+    }
   }
-  return false;
+  return result;
 }
-
-// Task Keep Hydrated!
-function litres(time) {
-  return Math.floor(time * 0.5);
-}
-
-// Task Grasshopper - Personalized Message
-function greet(name, owner) {
-  if (owner === name) {
-    return "Hello boss";
+var max = function(list){
+  let result = list[0];
+  for(let i=0; i<list.length; i++){
+    if(list[i] > result){
+      result = list[i];
+    }
   }
-  return "Hello guest";
+  return result;
 }
 
-// Task Grasshopper - Terminal game move function
-function move(position, roll) {
-  return (position = position + 2 * roll);
-}
-
-// Task Return Negative
-function makeNegative(num) {
-  if (num < 0) {
-    return num;
-  } else if (num === 0) {
-    return 0;
-  } else {
-    return -num;
+//https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
+function min(arr, toReturn) {
+  let minVal = arr[0];
+  let minValIndex = 0;
+  
+  for(let i=0; i<arr.length; i++){
+    if(arr[i] < minVal){
+      minVal = arr[i];
+      minValIndex = i;
+    }
   }
-}
-
-// Task Grasshopper - Messi goals function
-function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-  const sumGoals = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
-  return sumGoals;
+  
+  if(toReturn === "value"){
+    return minVal;
+  }
+  
+  return minValIndex;
 }
