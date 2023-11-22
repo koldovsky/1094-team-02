@@ -11,14 +11,22 @@ function DNAtoRNA(dna) {
 }
 
 //https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
-var min = function (list) {
-  list.sort(function (a, b) { return a - b; });
-  return list[0];
-}
-
-var max = function (list) {
-  list.sort(function (a, b) { return b - a; });
-  return list[0];
+function min(arr, toReturn) {
+  let minVal = arr[0];
+  let minValIndex = 0;
+  
+  for(let i=0; i<arr.length; i++){
+    if(arr[i] < minVal){
+      minVal = arr[i];
+      minValIndex = i;
+    }
+  }
+  
+  if(toReturn === "value"){
+    return minVal;
+  }
+  
+  return minValIndex;
 }
 
 //https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
