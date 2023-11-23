@@ -1,12 +1,12 @@
 //https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
 function stringToArray(string) {
-  let result = string.split(" ");
+  const result = string.split(" ");
   return result;
 }
 
 //https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
 function DNAtoRNA(dna) {
-  let result = dna.replace(/T/g, "U");
+  const result = dna.replace(/T/g, "U");
   return result;
 }
 
