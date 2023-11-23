@@ -4,27 +4,20 @@
 
 .ourteam {
     box-sizing: border-box;
-    margin: 174px;
-    max-width: 100%; /* Зробити картинку не ширше родительського контейнера */
-    height: auto; /* Зберігати пропорції при зміні ширини */
-    text-align: left;
-    margin: 20px auto;
-    border-radius: 0; 
-    padding: 20px; 
-    width: 90%; 
-    max-width: 1400px; 
-    /* height: 600px; */ 
+    margin: 20px auto; /* Оновлено маржі */
+    border-radius: 0;
+    padding: 20px;
+    width: 90%;
+    max-width: 1400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center; /* Оновлено вирівнювання елементів по центру */
 }
 
 .container {
-    
-    position: relative;
-    align-items: left; /* Выравнивание по центру по вертикали */
-    justify-content: center; /* Выравнивание по центру по горизонтали */
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .positionofworkers {
@@ -49,6 +42,8 @@
     padding-bottom: 31px;
     padding-left: 27px;
     padding-right: 27px;
+    text-align: left; /* Оновлено вирівнювання тексту */
+    max-width: 230px;
 }
 
 
@@ -69,6 +64,7 @@
     color: rgb(183,183,183);
     font-family: 'Manrope', sans-serif;
     margin-bottom: 20px;
+    text-indent: 84px;
 }
 
 .textk {
@@ -100,4 +96,13 @@
     max-width: 100%; /* Чтобы изображение не выходило за пределы контейнера */
     margin-right: 10px; /* Расстояние между изображением и текстом */
     margin: 0 auto; /* Автоматический отступ слева и справа для центрирования блочного элемента (изображения) */
+}
+
+.text-block {
+    max-width: 230px;
+}
+
+
+.image {
+    max-width: 100%;
 }
