@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
 
 :root {
   --body-fonts: 'Roboto', sans-serif;
@@ -13,29 +18,51 @@
   --color-border: #383838;
   --color-background: rgb(20, 20, 20);
   --color-text-content: #a9a9a9;
-  --color-border-bottom: rgba(255, 255, 255, 0.2)
+  --color-border-bottom: rgba(255, 255, 255, 0.2);
+  --menu-svg-fill-hover: rgb(121, 121, 121);
+  --background-accent: rgba(53, 53, 53, 0.144);
+  --header-background: rgba(0, 0, 0, 0.178);
+  --error-color: red;
+  scroll-behavior: smooth;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
- }
+img{
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fixed {
+  position: fixed;
+}
+
 body {
   background-color: #000;
   color: var(--color-title);
   font-family: var(--body-fonts);
 }
+
 p{
   margin: 0;
   padding: 0;
 }
-img{
-  display: block;
-  max-width: 100%;
-}
+
 .wrapper {
   max-width: 1200px;
   padding: 0px 15px;
   margin: auto;
 }
+
+

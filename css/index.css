@@ -1,11 +1,12 @@
 @import url(global.css);
+@import url(header-nav.css);
+@import url(header-intro.css);
+@import url(controls.css);
 @import url(main.section.map.css);
 @import url(footer.css);
 @import url(main.section.who-i-am.css);
 @import url(main.logo.css);
 @import url(main.section.hello-there.css);
-<<<<<<< HEAD
 @import url(ourteam.css);
-=======
 @import url(main.section.inspiration.css);
->>>>>>> d855243b2d3a34954c9c241005a1c8483135346d
+@import url(main.section.inspiration.css);
