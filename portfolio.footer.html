@@ -1,10 +1,12 @@
 <div class="portfolio__container wrapper">
-    <div class="porfolio__footer item">
+    <div class="portfolio__footer item">
         <div class="item__image">
-            <a href="#"><img class="item__view" src="img/view.png" alt="Mountain view"></a>
+            <a href="#" onclick="openModal('img/images/view.webp')">
+                <img class="item__view" src="img/view.png" alt="Mountain view">
+            </a>
         </div>
         <div class="item__image">
-            <a href="#"><img class="item__item" src="img/portfolio-logo.png" alt="Logo item"></a>
+            <img class="item__item" src="img/logo.webp" alt="Logo item">
         </div>
         <section class="footer__column page">
             <div class="page__item">
@@ -26,6 +28,10 @@
         <div class="footer__label">
             <div class="label__name">© Created by</div>
             <div class="label__info">All rights Reserved</div>
-        </div>      
+        </div>
     </div>
- </div>
+</div>
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
