@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 
-
-
 .ourteam {
     box-sizing: border-box;
     margin: 20px auto; /* Оновлено маржі */
@@ -13,12 +11,12 @@
     flex-direction: column;
     align-items: center; /* Оновлено вирівнювання елементів по центру */
 }
-
+/* 
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    align-items: center;         !!!!!переназвіть будь ласка цей блок, він конфліктує з блоком контейнер у файлі глобал!!!!!!!
+} */
 
 .positionofworkers {
     color: #8f83ff;
