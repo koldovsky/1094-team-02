@@ -103,7 +103,7 @@ cursor: pointer;
     .page__item {
         line-height: 1.5;
         font-size: 0.8rem;
-        text-align: end;
+        text-align: start;
     }
 }
 
@@ -120,8 +120,8 @@ cursor: pointer;
         padding: 0;
     }
     .page__item {
-       margin-top: 40px;
-   font-size: 16px;
+        margin-top: 40px;
+        font-size: 16px;
         padding: 11px;
         text-align: start;
     }
@@ -165,7 +165,7 @@ cursor: pointer;
 
 .footer__line:after {
     content: '';
-    background-color: var(--bg-line);
+    background-color: var(--color-border);
     height: 1px;
     display: block;
 }
