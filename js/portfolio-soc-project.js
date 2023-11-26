@@ -1,3 +1,21 @@
+const headerTitleChange = [
+  'The view from the top is always worth the climb',
+  'Social Projects by Patrick Jackson',
+  'The purpose of our life is to be happy'
+];
+
+function getRandomTitle(arr){
+  const randomIdx = Math.floor(Math.random() * arr.length);
+  return arr[randomIdx];
+}
+
+function updateTitle(){
+  const headerTitleText = document.querySelector('.hero__title');
+  headerTitleText.innerText = getRandomTitle(headerTitleChange);
+}
+
+setInterval(updateTitle, 6000);
+
 const slides = [
   '<div><img src="img/mountain.webp"</div>',
   '<div><img src="img/portfolio_photo_left.jpg"</div>',
@@ -40,6 +58,3 @@ nextBtn.addEventListener('click', nextSlide);
 const prevBtn = document.querySelector('.carousel_btn-prev');
 console.log(prevBtn);
 prevBtn.addEventListener('click', prevSlide);
-
-
-
