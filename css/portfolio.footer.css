@@ -103,7 +103,7 @@ cursor: pointer;
     .page__item {
         line-height: 1.5;
         font-size: 0.8rem;
-        text-align: end;
+        text-align: start;
     }
 }
 
