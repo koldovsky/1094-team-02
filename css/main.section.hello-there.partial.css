@@ -30,8 +30,6 @@
 .hello-there__tab-button {
     padding: 15px 20px;
     font-weight: bold;
-}
-.hello-there__tab-button {
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease;
     border-bottom-color: var(--color-text);
@@ -62,4 +60,8 @@
         grid-template-columns: 1fr 1fr;
         gap: 15px;
     }
+}
+
+.hello-there__category.hidden {
+    display: none;
 }
