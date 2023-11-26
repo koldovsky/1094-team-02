@@ -16,9 +16,20 @@
   color: rgb(4, 94, 132);
 }
 
+.header__image {
+  overflow: hidden;
+}
+
+.header__image2 {
+  object-fit: contain;
+  padding: 10% 0;
+  max-height: 600px;
+}
+
 .header__image img {
   width: 100%;
-  object-fit: contain;
+  height: auto;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 768px){ 
