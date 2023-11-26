@@ -16,9 +16,17 @@
   color: rgb(4, 94, 132);
 }
 
+.header__image {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  min-height: 360px;
+}
+
 .header__image img {
   width: 100%;
-  object-fit: contain;
+  height: auto;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 768px){ 
@@ -35,3 +43,39 @@
   }
 }
 
+.carousel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__image button {
+  background: none;
+  border: none;
+}
+
+.new-year-counter{
+  padding: 20px;
+}
+
+.new-year-counter__title {
+  font-size: 60px;
+}
+
+.new-year-counter__countdown{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.new-year-counter__item {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}

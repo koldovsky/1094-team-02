@@ -1,23 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
-
-
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 
 .ourteam {
     box-sizing: border-box;
-    margin: 20px auto; /* Оновлено маржі */
+    margin: 20px auto;
     border-radius: 0;
     padding: 20px;
     width: 90%;
     max-width: 1400px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Оновлено вирівнювання елементів по центру */
+    align-items: center; 
 }
 
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;         !!!!!переназвіть будь ласка цей блок, він конфліктує з блоком контейнер у файлі глобал!!!!!!!
 }
 
 .positionofworkers {
@@ -42,7 +40,7 @@
     padding-bottom: 31px;
     padding-left: 27px;
     padding-right: 27px;
-    text-align: left; /* Оновлено вирівнювання тексту */
+    text-align: left;
     max-width: 230px;
 }
 
@@ -55,7 +53,7 @@
 
 @media screen and (max-width: 550px) {
     .naming {
-      font-size: 40px; /* Размер шрифта при уменьшении ширины экрана до 600px */
+      font-size: 40px; 
       text-indent: 20px;
     }
 }
@@ -74,28 +72,28 @@
 
 @media only screen and (max-width: 550px) {
     .watchall {
-        flex-direction: column; /* Зміна напрямку на вертикальний при зменшенні ширини екрану */
-        align-items: left; /* Центрування елементів по центру при зменшенні ширини екрану */
+        flex-direction: column; 
+        align-items: left; 
         padding: 0 84px;
     }
 }
 
 .watchall {
     display: block;
-    display: inline-block; /* Зробити контейнер блокувальним, але залишити його в лінії */
-    width: 100%; /* Якщо потрібно зайняти всю ширину доступного простору */
+    display: inline-block; 
+    width: 100%; 
     margin-left: auto;
     margin-right: auto;
     max-width: 1400px;
     display: flex;
-    justify-content: space-between; /* Розташування елементів з обох сторін рядка */
+    justify-content: space-between; 
 }
 
 .jashi {
     display: inline-block;
-    max-width: 100%; /* Чтобы изображение не выходило за пределы контейнера */
-    margin-right: 10px; /* Расстояние между изображением и текстом */
-    margin: 0 auto; /* Автоматический отступ слева и справа для центрирования блочного элемента (изображения) */
+    max-width: 100%; 
+    margin-right: 10px; 
+    margin: 0 auto; 
 }
 
 .text-block {
@@ -105,4 +103,4 @@
 
 .image {
     max-width: 100%;
-}
+} */

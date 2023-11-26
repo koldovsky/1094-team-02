@@ -2,6 +2,7 @@
 {
   width: 100%;
   aspect-ratio: 3 / 4;
+  overflow: hidden;
 }
 
 .map iframe {
@@ -12,4 +13,13 @@
   .map{
     aspect-ratio: 2.5 / 1;
   }
+}
+
+.map-contacts {
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: black;
+  margin-left: 100px;
 }

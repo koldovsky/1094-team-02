@@ -201,66 +201,67 @@
     letter-spacing: 6.3px;
     color: rgb(38, 161, 199);
     text-align: center;
+}
 
-    @media (max-width: 768px) {
-        .person__projects {
-            /* border: 2px solid blue; */
-            width: 100%;
-            margin-top: 65px;
-            display: flex;
-            justify-content: space-between;
-            flex-direction: column;
-            padding-left: 20px;
-            margin: auto;
-        }
-
-        .person__container {
-            display: flex;
-            justify-content: space-between;
-            flex-direction: column;
-            /* border: 2px solid red; */
-            width: 100%;
-            height: auto;
-            margin: auto;
-            align-items: center;
-        }
-
-        .person__experience {
-            font-size: 34px;
-            line-height: 54.6px;
-            font-weight: 700;
-            letter-spacing: normal;
-            padding-left: 20px;
-            width: 33.3333%;
-        }
-
-        .person__quote {
-            font-size: 36px;
-            line-height: 54.6px;
-            font-weight: 700;
-            letter-spacing: normal;
-        }
-
-        .person__project {
-            width: 100%;
-            padding: 40px 30px;
-
-        }
-
-        .person__category {
-            width: 100%;
-            margin: auto;
-        }
-
-        .person__project--sands,
-        .person__project--walking,
-        .person__experience,
-        .person__projects--title,
-        .person__project-link {
-            width: 86%;
-        }
-
-        .person__project-link {
-            align-self: center;
-        }
+@media (max-width: 768px) {
+    .person__projects {
+        /* border: 2px solid blue; */
+        width: 100%;
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-left: 20px;
+        margin: auto;
     }
+
+    .person__container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        width: 100%;
+        height: auto;
+        margin: auto;
+        align-items: center;
+    }
+
+    .person__experience {
+        font-size: 34px;
+        line-height: 54.6px;
+        font-weight: 700;
+        letter-spacing: normal;
+        padding-left: 20px;
+        width: 33.3333%;
+    }
+
+    .person__quote {
+        font-size: 36px;
+        line-height: 54.6px;
+        font-weight: 700;
+        letter-spacing: normal;
+    }
+
+    .person__project {
+        width: 100%;
+        padding: 40px 30px;
+
+    }
+
+    .person__category {
+        width: 100%;
+        margin: auto;
+    }
+
+    .person__project--sands,
+    .person__project--walking,
+    .person__experience,
+    .person__projects--title,
+    .person__project-link {
+        width: 86%;
+    }
+
+    .person__project-link {
+        align-self: center;
+    }
+}
