@@ -7,13 +7,9 @@
 @import url(footer.css);
 @import url(main.section.who-i-am.css);
 @import url(main.logo.css);
-<<<<<<< HEAD
 @import url(main.section.hello-there.css);
-/*@import url(ourteam.css);*/
-=======
-@import url(main.section.hello-there.partial.css);
 @import url(ourteam.css);
->>>>>>> 4f40c3a983c9116973815f0c67b1e061dd8c91bf
+@import url(main.section.hello-there.partial.css);
 @import url(main.section.inspiration.css);
 @import url(main.section.inspiration.css);
 @import url(main.mountain.photo.css);
