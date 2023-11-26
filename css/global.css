@@ -65,4 +65,6 @@ p{
   margin: auto;
 }
 
-
+svg {
+  fill: #ffffff;
+}
