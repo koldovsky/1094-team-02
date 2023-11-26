@@ -52,9 +52,7 @@ renderSlide();
 setInterval(nextSlide, 3000);
 
 const nextBtn = document.querySelector('.carousel_btn-next');
-console.log(nextBtn);
 nextBtn.addEventListener('click', nextSlide);
 
 const prevBtn = document.querySelector('.carousel_btn-prev');
-console.log(prevBtn);
 prevBtn.addEventListener('click', prevSlide);
