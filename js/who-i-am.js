@@ -22,10 +22,10 @@ setInterval(updateCountdown, 1000);
 function toggleTimer() {
     if (timer.style.display === "none") {
         timer.style.display = "block";
-        btn.innerHTML = "Hide time left to release"
+        btn.innerHTML = "Hide time left to project release"
     } else {
         timer.style.display = "none";
-        btn.innerHTML = "Show time left to release"
+        btn.innerHTML = "Show time left to project release"
     }
 }
 btn.addEventListener("click", toggleTimer)
