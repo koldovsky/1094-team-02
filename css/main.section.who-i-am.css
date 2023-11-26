@@ -155,7 +155,11 @@
 }
 
 .person__projects--title {
+    display: flex;
+    flex-direction: column;
     width: 33.33333%;
+    aspect-ratio: 3/4;
+    padding: 30px 30px;
 }
 
 .person__project--sands {
@@ -180,65 +184,83 @@
     margin-bottom: 15px;
 }
 
-@media (max-width: 768px) {
-    .person__projects {
-        /* border: 2px solid blue; */
-        width: 100%;
-        margin-top: 65px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        padding-left: 20px;
-        margin: auto;
-    }
+.person__release--btn {
+    border-radius: 5px;
+    width: 40%;
+    aspect-ratio: 2;
+    margin: 0 auto;
 
-    .person__container {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        /* border: 2px solid red; */
-        width: 100%;
-        height: auto;
-        margin: auto;
-        align-items: center;
-    }
-
-    .person__experience {
-        font-size: 34px;
-        line-height: 54.6px;
-        font-weight: 700;
-        letter-spacing: normal;
-        padding-left: 20px;
-        width: 33.3333%;
-    }
-
-    .person__quote {
-        font-size: 36px;
-        line-height: 54.6px;
-        font-weight: 700;
-        letter-spacing: normal;
-    }
-
-    .person__project {
-        width: 100%;
-        padding: 40px 30px;
-
-    }
-
-    .person__category {
-        width: 100%;
-        margin: auto;
-    }
-
-    .person__project--sands,
-    .person__project--walking,
-    .person__experience,
-    .person__projects--title,
-    .person__project-link {
-        width: 86%;
-    }
-
-    .person__project-link {
-        align-self: center;
-    }
 }
+
+.person__release--timer {
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 31.5px;
+    font-weight: 600;
+    letter-spacing: 6.3px;
+    color: rgb(38, 161, 199);
+    text-align: center;
+
+    @media (max-width: 768px) {
+        .person__projects {
+            /* border: 2px solid blue; */
+            width: 100%;
+            margin-top: 65px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            padding-left: 20px;
+            margin: auto;
+        }
+
+        .person__container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            /* border: 2px solid red; */
+            width: 100%;
+            height: auto;
+            margin: auto;
+            align-items: center;
+        }
+
+        .person__experience {
+            font-size: 34px;
+            line-height: 54.6px;
+            font-weight: 700;
+            letter-spacing: normal;
+            padding-left: 20px;
+            width: 33.3333%;
+        }
+
+        .person__quote {
+            font-size: 36px;
+            line-height: 54.6px;
+            font-weight: 700;
+            letter-spacing: normal;
+        }
+
+        .person__project {
+            width: 100%;
+            padding: 40px 30px;
+
+        }
+
+        .person__category {
+            width: 100%;
+            margin: auto;
+        }
+
+        .person__project--sands,
+        .person__project--walking,
+        .person__experience,
+        .person__projects--title,
+        .person__project-link {
+            width: 86%;
+        }
+
+        .person__project-link {
+            align-self: center;
+        }
+    }
