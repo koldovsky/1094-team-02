@@ -13,7 +13,6 @@
     flex: 0 0 100%;
     padding: 20px;
     box-sizing: border-box;
-    margin-right: 10px; /* Add margin to the right of each slide */
 }
 
 @media (min-width: 768px) {
@@ -36,7 +35,7 @@
     border: none;
     cursor: pointer;
     z-index: 1; 
-    transition: color 0.3s, font-size 0.5s ease, transform 0,3s; 
+    transition: color 0.3s, font-size 0.5s ease, transform 0,3s;
 }
 
 .animated-carousel .carousel__button:hover {
@@ -71,4 +70,3 @@
     cursor: pointer;
     font-weight: bold;
 }
-
