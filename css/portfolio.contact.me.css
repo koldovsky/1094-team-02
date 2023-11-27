@@ -81,5 +81,5 @@
     font-weight: 700; 
 }
 .info__link a:hover {
-    color: var(--color-turquoise);
+    color: var(--color-link);
 }
