@@ -7,7 +7,7 @@
 @import url(footer.css);
 @import url(main.section.who-i-am.css);
 @import url(main.logo.css);
-@import url(main.section.hello-there.css);
+@import url(main.section.hello-there.css); /*main.section.hello-there.partial.css*/
 /* @import url(ourteam.css); */
 @import url(main.section.hello-there.partial.css);
 @import url(main.section.inspiration.css);
