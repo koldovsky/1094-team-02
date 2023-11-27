@@ -1,0 +1,106 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+.ourteam {
+    box-sizing: border-box;
+    margin: 20px auto;
+    border-radius: 0;
+    padding: 20px;
+    width: 90%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;         !!!!!переназвіть будь ласка цей блок, він конфліктує з блоком контейнер у файлі глобал!!!!!!!
+}
+
+.positionofworkers {
+    color: #8f83ff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+.workertext {
+    font-family: 'Manrope', sans-serif;
+    color: #9d9c9c;
+}
+
+.maillinks {
+    width: 20px;
+    font-family: 'Manrope', sans-serif;
+    color: #b7b7b7;
+}
+
+.workeralltext {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 27px;
+    padding-right: 27px;
+    text-align: left;
+    max-width: 230px;
+}
+
+
+.naming {
+    font-size: 68px;
+    text-indent: 84px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 550px) {
+    .naming {
+      font-size: 40px; 
+      text-indent: 20px;
+    }
+}
+
+.textl {
+    color: rgb(183,183,183);
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 20px;
+    text-indent: 84px;
+}
+
+.textk {
+    color: #73cae5;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 550px) {
+    .watchall {
+        flex-direction: column; 
+        align-items: left; 
+        padding: 0 84px;
+    }
+}
+
+.watchall {
+    display: block;
+    display: inline-block; 
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.jashi {
+    display: inline-block;
+    max-width: 100%; 
+    margin-right: 10px; 
+    margin: 0 auto; 
+}
+
+.text-block {
+    max-width: 230px;
+}
+
+
+.image {
+    max-width: 100%;
+} */
