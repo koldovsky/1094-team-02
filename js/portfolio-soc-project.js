@@ -17,10 +17,10 @@ function updateTitle(){
 setInterval(updateTitle, 6000);
 
 const slides = [
-  '<div><img src="img/mountain.webp"</div>',
-  '<div><img src="img/portfolio_photo_left.jpg"</div>',
-  '<div><img src="img/portfolio_photo_right_bottom.jpg"</div>',
-  '<div><img src="img/portfolio_photo_right_top.jpg"</div>',
+  '<div><img src="img/mountain.webp" alt="mountain"/></div>',
+  '<div><img src="img/portfolio_photo_left.jpg" alt="mountain"/></div>',
+  '<div><img src="img/portfolio_photo_right_bottom.jpg" alt="mountain"/></div>',
+  '<div><img src="img/portfolio_photo_right_top.jpg" alt="mountain"/></div>',
 ];
 
 let currentSlideIdx = 0;
