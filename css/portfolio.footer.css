@@ -64,8 +64,9 @@
   .modal-content {
     margin: auto;
     display: block;
-    width: 95%;
-    max-width: 700px;
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 40px;
   }
   
   .close {
