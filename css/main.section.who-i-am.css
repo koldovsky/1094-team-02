@@ -122,6 +122,7 @@
     line-height: 54.6px;
     font-weight: 700;
     letter-spacing: normal;
+    width: 100%;
 }
 
 .person__project-link {
@@ -158,8 +159,7 @@
     display: flex;
     flex-direction: column;
     width: 33.33333%;
-    aspect-ratio: 3/4;
-    padding: 30px 30px;
+    padding: 20px 20px;
 }
 
 .person__project--sands {
@@ -185,50 +185,44 @@
 }
 
 .person__release--btn {
-    border-radius: 5px;
-    width: 50%;
-    aspect-ratio: 2;
+    border-radius: 10px;
+    width: 60%;
+    aspect-ratio: 3;
     margin: 0 auto;
     background-color: aliceblue;
     color: rgb(26, 4, 4);
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    line-height: 25.5px;
-    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
     letter-spacing: normal;
-    padding: 10px;
+    padding: 5px;
 }
 
 .person__release--timer {
     width: 100%;
     margin: auto;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 31.5px;
     font-weight: 600;
     letter-spacing: 6.3px;
-    color: rgb(38, 161, 199);
+    color: rgb(16, 167, 212);
     text-align: center;
+    margin-top: 15px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
     .person__quote {
         font-size: 30px;
-        line-height: 40px;
-        font-weight: 700;
-        letter-spacing: normal;
     }
 
     .person__release--btn {
-        border-radius: 5px;
-        width: 80%;
+        width: 60%;
         aspect-ratio: 2;
         margin: 0 auto;
-        background-color: aliceblue;
-        color: rgb(26, 4, 4);
-        font-family: 'Roboto', sans-serif;
         font-size: 15px;
         line-height: 20px;
-        font-weight: 400;
+        font-weight: 600;
         letter-spacing: normal;
         padding: 3px;
     }
@@ -238,7 +232,7 @@
         line-height: 25px;
         font-weight: 600;
         letter-spacing: 5px;
-
+        margin-top: 15px;
     }
 }
 
@@ -247,7 +241,7 @@
         width: 100%;
         margin-top: 20px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: column;
         padding-left: 20px;
         margin: auto;
@@ -257,7 +251,6 @@
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        /* border: 2px solid red; */
         width: 100%;
         height: auto;
         margin: auto;
@@ -275,7 +268,6 @@
 
     .person__quote {
         font-size: 35px;
-        line-height: 45px;
         font-weight: 700;
         letter-spacing: normal;
     }
@@ -304,25 +296,34 @@
     }
 
     .person__projects--title {
-        aspect-ratio: 1;
-        padding: 20px 20px;
+        width: 100%;
+        padding: 5px 20px;
     }
 
     .person__release--btn {
-        font-size: 15px;
+        font-size: 20px;
         line-height: 25.5px;
-        font-weight: 900;
+        font-weight: 700;
         letter-spacing: normal;
         padding: 10px;
         width: 50%;
-        aspect-ratio: 2;
+        aspect-ratio: 3;
     }
 
     .person__release--timer {
         font-size: 25px;
-        line-height: 31.5px;
-        font-weight: 900;
+        line-height: 30px;
+        font-weight: 600;
         letter-spacing: 5px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
 
+@media (max-width: 520px) {
+    .person__release--btn {
+        padding: 5px;
+        width: 50%;
+        aspect-ratio: 3;
     }
 }
