@@ -16,7 +16,6 @@ function updateCountdown() {
     const count = `${d}d:${h}h:${m}m:${s}s`
     timer.innerHTML = count
 }
-
 setInterval(updateCountdown, 1000);
 
 function toggleTimer() {
