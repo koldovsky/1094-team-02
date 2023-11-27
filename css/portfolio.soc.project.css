@@ -1,6 +1,7 @@
 .header__hero {
   text-align: center;
   background-image: url("../img/baground.jpg");
+  margin-top: 20px;
 }
 
 .hero__title {
@@ -9,7 +10,7 @@
   color: var(--color-title);
   font-weight: 900;
   transition: 1s linear;
-  text-align: left;
+  text-align: center;
 }
 
 .hero__title:hover {
@@ -55,11 +56,12 @@
 }
 
 .new-year-counter{
-  padding: 20px;
+  padding: 15px;
 }
 
 .new-year-counter__title {
-  font-size: 60px;
+  font-size: 20px;
+  transition: 1s linear;
 }
 
 .new-year-counter__countdown{
@@ -78,4 +80,18 @@
   align-items: center;
   justify-content: center;
   gap: 5px;
+}
+
+@media screen and (min-width: 768px){ 
+  .new-year-counter__title  {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px){ 
+  .new-year-counter__title  {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
 }
