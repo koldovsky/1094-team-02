@@ -16,6 +16,10 @@
     margin: 20px 10px;
 }
 
+.modal__item img {
+    cursor: pointer;
+}
+
 .item__item {
     height: 32px;
     width: 32px;
@@ -60,7 +64,7 @@
   .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 95%;
     max-width: 700px;
   }
   

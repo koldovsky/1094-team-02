@@ -2,7 +2,6 @@ const modal = document.getElementById("myModal");
 
 const img = document.getElementById("myImg");
 const modalImg = document.getElementById("imgCl");
-const captionText = document.getElementById("caption");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
