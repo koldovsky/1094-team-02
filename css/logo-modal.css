@@ -41,9 +41,10 @@
 
 /* Modal Content */
 .modal-content {
-    position: relative;
-    align-items: center;
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     padding: 0;
 }
 
@@ -93,13 +94,13 @@
 } */
 
 .prev {
-    left: 0; /* Розташовуємо кнопку 'prev' ліворуч */
-    margin-top: -50px; /* Зміщуємо вгору на половину висоти кнопки */
+    left: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 .next {
-    right: 0; /* Розташовуємо кнопку 'next' праворуч */
-    margin-top: -50px; /* Зміщуємо вгору на половину висоти кнопки */
+    right: 0;
+    border-radius: 0 3px 3px 0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
