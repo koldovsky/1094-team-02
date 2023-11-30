@@ -61,6 +61,7 @@
 .footer__link {
     word-wrap: break-word;
     margin-top: 25px;
+    transition: all 1s ease-out;
 }
 
 .footer__link a {
