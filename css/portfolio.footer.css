@@ -116,16 +116,10 @@
         line-height: 1.5;
         font-size: 15px;
         text-align: start;
+        padding-right: 12px;
     }
 }
-@media (min-width: 768px) {
-    .page__local {
-        align-self: end;
-    }
-    .page__find {
-        align-self: end;
-    }
-}
+
 @media (min-width: 1024px) {
     .page__item {
         font-size: 0.9rem;
