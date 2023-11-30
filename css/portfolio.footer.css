@@ -109,16 +109,23 @@
 }
 @media (min-width: 768px) {
     .footer__column {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 2fr 2fr;
         padding: 0 20px;
     }
     .page__item {
         line-height: 1.5;
-        font-size: 0.8rem;
+        font-size: 15px;
         text-align: start;
     }
 }
-
+@media (min-width: 768px) {
+    .page__local {
+        align-self: end;
+    }
+    .page__find {
+        align-self: end;
+    }
+}
 @media (min-width: 1024px) {
     .page__item {
         font-size: 0.9rem;
@@ -143,6 +150,7 @@
     .page__name {
         text-align: start;
         line-height: 1.2;
+        padding-right: 15px;
     }
 }
 
