@@ -88,36 +88,29 @@
   }
   
   .footer__column {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
-    font-family: 'Roboto', sans-serif;
-    width: 272px;
+    text-align: start;
     margin: 0 auto;
-    text-align: center;
+    display: grid;
+    align-items: center;
+    padding: 0 25px 0 25px;
 }
 
 .page__item {
-    font-size: 18px;
-    line-height: 1.9;
+    margin-top: 60px;
+    color: var(--color-text);
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-size: 0.8rem;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    line-height: 1.9;
+    font-weight: 700;
 }
 .page__name {
-    font-weight: 900;
-    font-size: 1.8rem;
-    margin-top: 50px;
+    font-size: 1.9rem;
 }
 @media (min-width: 768px) {
     .footer__column {
-        flex-direction: row;
-        width: 100%;
-        align-items: center;
-        margin-top: 50px;
-        padding: 0;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 20px;
     }
     .page__item {
         line-height: 1.5;
