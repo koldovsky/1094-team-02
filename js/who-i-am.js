@@ -1,6 +1,6 @@
 const btn = document.querySelector(".person__release--btn");
 const timer = document.querySelector(".person__release--timer");
-timer.style.display = "none";
+timer.hidden = true;
 
 const newDateTime = new Date(2023, 11, 11, 17);
 function updateCountdown() {
@@ -19,11 +19,11 @@ function updateCountdown() {
 setInterval(updateCountdown, 1000);
 
 function toggleTimer() {
-    if (timer.style.display === "none") {
-        timer.style.display = "block";
+    if (timer.hidden === true) {
+        timer.hidden = false;
         btn.innerHTML = "Hide time left to project release"
     } else {
-        timer.style.display = "none";
+        timer.hidden = true;
         btn.innerHTML = "Show time left to project release"
     }
 }
