@@ -66,6 +66,7 @@
 .footer__link a {
     color: var(--color-text);
     font-size: 43px;
+    transition: all 1s ease-out;
 }
 
 @media(min-width: 768px) {

@@ -5,7 +5,6 @@ const modalImg = document.getElementById("imgCl");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
 }
 
 const span = document.getElementsByClassName("close")[0];
