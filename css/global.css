@@ -49,7 +49,8 @@ a {
 }
 
 body {
-  background-color: var(--color-background);
+  /* background-color: var(--color-background); */
+  background-image: url("../img/background.jpg");
   color: var(--color-title);
   font-family: var(--body-fonts);
 }

@@ -1,81 +1,67 @@
-<section class="main-logo-company__new">
+<section class="main-logo-company__new wrapper">
         <div class="main-logo-company__subtitle">CLIENTS.</div>
         <div class="main-logo-company__title">My work with brands of different scale and prominent figures resulted in
                 more than 4356 projects and ads campaigns.</div>
         <div class="center-container">
                 <div class="row">
                         <div class="column">
-                                <img src="img/hm.png" onclick="openModal();currentSlide(1)" class="hover-shadow"
-                                        alt="hm">
+                                <img src="img/hm.png" alt="hm">
                         </div>
                         <div class="column">
-                                <img src="img/armani.png" onclick="openModal();currentSlide(2)" class="hover-shadow"
-                                        alt="arm">
+                                <img src="img/armani.png" alt="arm">
                         </div>
                         <div class="column">
-                                <img src="img/discovery.png" onclick="openModal();currentSlide(3)" class="hover-shadow"
-                                        alt="dis">
+                                <img src="img/discovery.png" alt="dis">
                         </div>
                         <div class="column">
-                                <img src="img/flickr.png" onclick="openModal();currentSlide(4)" class="hover-shadow"
-                                        alt="fli">
-                        </div>
-                </div>
-                <div class="row">
-                        <div class="column">
-                                <img src="img/fox.png" onclick="openModal();currentSlide(5)" class="hover-shadow"
-                                        alt="fox">
+                                <img src="img/flickr.png" alt="fli">
                         </div>
                         <div class="column">
-                                <img src="img/gap.png" onclick="openModal();currentSlide(6)" class="hover-shadow"
-                                        alt="gap">
+                                <img src="img/fox.png" alt="fox">
                         </div>
                         <div class="column">
-                                <img src="img/ngc.png" onclick="openModal();currentSlide(7)" class="hover-shadow"
-                                        alt="ngc">
+                                <img src="img/gap.png" alt="gap">
                         </div>
                         <div class="column">
-                                <img src="img/wtf.png" onclick="openModal();currentSlide(8)" class="hover-shadow"
-                                        alt="wtf">
+                                <img src="img/ngc.png" alt="ngc">
+                        </div>
+                        <div class="column">
+                                <img src="img/wtf.png" alt="wtf">
                         </div>
                 </div>
         </div>
-        <div id="myModal" class="modal">
-                <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div id="modalbox" class="modal">
+                
                 <div class="modal-content">
-                        <div class="mySlides">
+                        <div class="modalslides">
                                 <img src="img/hm.png" alt="hm">
                         </div>
-                        <div class="mySlides">
+                        <div class="modalslides">
                                 <img src="img/armani.png" alt="arm">
                         </div>
-                        <div class="mySlides">
+                        <div class="modalslides">
                                 <img src="img/discovery.png" alt="dis">
                         </div>
-                        <div class="mySlides">
+                        <div class="modalslides">
                                 <img src="img/flickr.png" alt="fli">
                         </div>
-                        <div class="mySlides">
+                        <div class="modalslides">
                                 <img src="img/fox.png" alt="fox">
                         </div>
-                        <div class="mySlides">
+                        <div class="modalslides">
                                 <img src="img/gap.png" alt="gap">
                         </div>
-                        <div class="mySlides">
+                        <div class="modalslides">
                                 <img src="img/ngc.png" alt="ngc">
                         </div>
-                        <div class="mySlides">
+                        <div class="modalslides">
                                 <img src="img/wtf.png" alt="wtf">
                         </div>
-
-                        <!-- Next/previous controls -->
-                        <a class="prev" onclick="plusSlides(-1)" href="javascript:void(0)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)" href="javascript:void(0)">&#10095;</a>
-
-                        <!-- Caption text -->
-                        <div class="caption-container">
-                                <p id="caption"></p>
-                        </div>
+                </div>
+                <div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <span class="close cursor">&times;</span>
                 </div>
         </div>
 </section>
