@@ -10,7 +10,6 @@
 }
 
 .hello-there__subtitle{
-    text-transform: uppercase;
     font-weight: bold;
     text-align: left;
     min-width: 320px;
@@ -30,6 +29,12 @@
 .hello-there__tab-button {
     padding: 15px 20px;
     font-weight: bold;
+    /* border-bottom: 2px solid transparent; */
+    /* transition: border-bottom 0.3s ease; */
+    /* border-bottom-color: var(--color-text); */
+}
+
+.hello-there__tab-button.active {
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease;
     border-bottom-color: var(--color-text);
