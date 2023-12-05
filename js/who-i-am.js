@@ -2,7 +2,7 @@ const btn = document.querySelector(".person__release--btn");
 const timer = document.querySelector(".person__release--timer");
 timer.hidden = true;
 
-const newDateTime = new Date(2023, 11, 11, 17);
+const newDateTime = new Date(2023, 11, 7, 17);
 function updateCountdown() {
     const currentTime = new Date();
     const diff = newDateTime - currentTime;
