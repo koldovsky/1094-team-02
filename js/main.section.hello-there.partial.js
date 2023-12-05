@@ -9,10 +9,6 @@ function showPhotos(category) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    showPhotos('nature');
-});
-
 document.querySelectorAll('.hello-there__tab-button').forEach(function (button) {
     button.addEventListener('click', function () {
         document.querySelectorAll('.hello-there__tab-button').forEach(function (tab) {
@@ -25,3 +21,5 @@ document.querySelectorAll('.hello-there__tab-button').forEach(function (button) 
         showPhotos(category);
     });
 });
+
+showPhotos('nature');
