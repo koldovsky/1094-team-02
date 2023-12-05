@@ -5,4 +5,5 @@ document.addEventListener("partialsLoaded", () => {
   import('./header-intro.js');
   import('./main.section.hello-there.partial.js');
   import("./logo-modal.js");
+  import("./main.section.collaboration.button.js");
 });
