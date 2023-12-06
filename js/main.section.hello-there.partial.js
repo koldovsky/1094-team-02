@@ -7,6 +7,13 @@ function showPhotos(category) {
     if (selectedCategory) {
         selectedCategory.classList.remove('hidden');
     }
+
+    document.querySelectorAll('.hello-there__tab-button').forEach(function (button) {
+        button.classList.remove('active');
+        if (button.classList.contains(category)) {
+            button.classList.add('active');
+        }
+    });
 }
 
 document.querySelectorAll('.hello-there__tab-button').forEach(function (button) {
