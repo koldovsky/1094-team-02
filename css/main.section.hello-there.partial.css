@@ -29,9 +29,6 @@
 .hello-there__tab-button {
     padding: 15px 20px;
     font-weight: bold;
-    /* border-bottom: 2px solid transparent; */
-    /* transition: border-bottom 0.3s ease; */
-    /* border-bottom-color: var(--color-text); */
 }
 
 .hello-there__tab-button.active {
