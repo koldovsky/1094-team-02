@@ -4,6 +4,7 @@ document.addEventListener("partialsLoaded", () => {
   import('./carousel-animated.js');
   import('./header-intro.js');
   import('./main.section.hello-there.partial.js');
+  import('./ourteam.js');
   import("./logo-modal.js");
   import("./main.section.collaboration.button.js");
 });
